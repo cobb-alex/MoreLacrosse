@@ -1,7 +1,8 @@
 @extends('layouts.main')
 
 @section('title')
-<h1>Gear Reviews</h1>
+<h1>Lacrosse University</h1>
+<h3>Players</h3>
 @stop
 
 @section('content')

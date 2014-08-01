@@ -12,7 +12,27 @@
 */
 
 Route::get('/', 'HomeController@showWelcome');
+
 Route::get('/gear', function(){
 
 	return View::make('gear');
+});
+
+Route::get('/laxu/players', function(){
+
+	return View::make('university.players');
+});
+
+Route::get('/laxu/coaches', function(){
+
+	return View::make('university.coaches');
+});
+
+Route::resource('blog', 'BlogController');
+
+Route::resource('gear', 'GearController');
+
+Route::get('/about', function(){
+
+	return View::make('about');
 });

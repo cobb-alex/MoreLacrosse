@@ -47,10 +47,3 @@ Route::get('/about', function(){
 
 	return View::make('about');
 });
-
-Route::get('/password', function(){
-
-	$password = Hash::make('catslair');
-	print_r($password);
-	exit;
-});

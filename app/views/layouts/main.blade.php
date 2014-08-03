@@ -11,7 +11,7 @@
 	<script type="text/javascript">
 		tinymce.init({
 		    selector: "textarea",
-		    plugins: "media"
+		    plugins: "media, image"
 		 });
 	</script>
 
@@ -48,7 +48,7 @@
 				</button>
 			</div>
 			<div class="collapse navbar-collapse">
-				<ul class="nav navbar-nav" style="margin-left:-100px;">
+				<ul class="nav navbar-nav">
 					<li><a style="color:#fff" href="/">Home</a></li>
 					<li><a style="color:#fff" href="/gear">Gear Reviews</a></li>
 					<li class="dropdown">

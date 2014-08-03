@@ -33,7 +33,7 @@ class BlogController extends \BaseController {
 	 */
 	public function store()
 	{
-		$posting = new Posting;
+		$posting = new BlogPosting;
 		$posting->blog_title = Input::get('blog_title');
 		$posting->blog_content = Input::get('blog_content');
 		$posting->save();
